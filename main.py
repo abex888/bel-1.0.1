@@ -231,7 +231,7 @@ set_schedule_button.grid(row=3, column=0, padx=10, sticky=tk.W)
 #label_informasi = tk.Label(root, font=("Arial", 2), text=keterangan)
 #label_informasi.grid(row=2, column=0)
 
-# binding F1 sampai F4
+# binding F1 sampai F5
 root.bind('<F1>', lambda event: tentang_program())
 root.bind('<F2>', lambda event: suara.suara_masuk())
 root.bind('<F3>', lambda event: suara.suara_pulang())
